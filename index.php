@@ -75,6 +75,9 @@ define("INCLUDE_PATH", "../twc_includes");
         </div>            
         <input type="submit" class="btn btn-default" value="Submit" id="submit">
     </form>
+    <p><a href="https://github.com/pwingard/zipCodeRadiusTool">Git</a>&nbsp;&middot;&nbsp;
+      <a href="https://www.linkedin.com/in/pwingard">LinkedIn</a>&nbsp;&middot;&nbsp;
+        <a href="http://pwingard.com">Home</a></p>
 </div>    
     
     
