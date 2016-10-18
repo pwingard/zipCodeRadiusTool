@@ -59,7 +59,7 @@ define("INCLUDE_PATH", "../twc_includes");
 <div id="addDiv" class="pane">
     <br /><br />
     <p class="form-group"> 
-        ZipCodeRadiusTool is an example of an app that uses Ajax to call a PHP page that queries 
+        This is an example of an app that uses Ajax to call a PHP page that queries 
         <a href="http://zipcodeapi.com">zipcodeapi.com</a> using its API 
         to return a list of zip codes within a five mile radius
         of any U.S. zip code input. If you submit a comma separated list of zips 
