@@ -14,9 +14,7 @@ if(count($ziparr)<1){
     echo json_encode("No zip codes found. (List must be comma delimited.)");
     die();
 } else {
-    foreach($ziparr[0] as $zip){ //since the api response is flakey with too many zips 
-                                // this is a quick hack to limit the call to the first zip in a list
-                                //and no more...
+    foreach($ziparr as $zip){ 
         if(!ctype_digit($zip) || strlen($zip)!=5){
             echo json_encode("Not a valid zipcode...");
             die();
@@ -31,7 +29,11 @@ if(count($ziparr)<1){
             
             $zipsArr = array_merge($zipsArr, $thisArr);
             $zipsArr = array_unique($zipsArr);
+            
         }
+        break;//since the api response is flakey with too many zips 
+            // this is a quick hack to limit the call to the first zip in a list
+            //and no more...
     }
 }
 echo json_encode($zipsArr);
