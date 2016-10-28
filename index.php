@@ -1,5 +1,4 @@
 <?php
-
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
@@ -53,7 +52,7 @@ define("INCLUDE_PATH", "../twc_includes");
     </head>
 <body>
 <header>    
-<div>Zipcode Radius Tool</div>
+<div>Zipcode Radius Tool (Using 3rd Party API)</div>
 </header>
 
 <div id="addDiv" class="pane">
