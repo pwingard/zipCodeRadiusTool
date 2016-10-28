@@ -61,14 +61,13 @@ define("INCLUDE_PATH", "../twc_includes");
         This is an example of an app that uses Ajax to call a PHP page that queries 
         <a href="http://zipcodeapi.com">zipcodeapi.com</a> using its API 
         to return a list of zip codes within a five mile radius
-        of any U.S. zip code input. If you submit a comma separated list of zips 
-        the app will return all the zips within the radius limit of the entire list. 
-        Zipcodeapi is a free service until the API call limit of 50 per hour or 
+        of any U.S. zip code input. Zipcodeapi is a free service until the API call limit of 50 per hour or 
         1,200 per day is reached. (Too many calls will generate an error once this limit is reached.)
+        There will be an organic version shortly with no limits other than bandwidth.
     </p>
     <form id="formwhatever" action="" method="post" name="form" enctype="multipart/form-data">
         <div class="form-group"> 
-            <label>Enter list of zip codes (comma separated zip1, zip2, ...)</label>
+            <label>Enter a zip code</label>
             <textarea rows="4" cols="50" class="form-control" id="ziplocale"></textarea>
 
         </div>            
