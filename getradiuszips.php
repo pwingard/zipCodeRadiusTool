@@ -11,7 +11,7 @@ foreach ($zipinputarr as $zippc) {
 $zipsArr=array();
 
 if(count($ziparr)<1){
-    echo json_encode("No zip codes found. (List must be comma delimited.)");
+    echo json_encode("No zip codes found.");
     die();
 } else {
     foreach($ziparr as $zip){ 
