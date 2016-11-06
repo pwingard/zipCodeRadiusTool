@@ -31,12 +31,12 @@ if(count($ziparr)<1){
             $zipsArr = array_unique($zipsArr);
             
         }
-        break;//since the api response is flakey with too many zips 
+        //break;//since the api response is flakey with too many zips 
             // this is a quick hack to limit the call to the first zip in a list
             //and no more...
     }
 }
-echo json_encode($zipsArr);
+echo json_encode(array_values($zipsArr));
 
 
 function httpGet($url){

@@ -63,11 +63,11 @@ define("INCLUDE_PATH", "../twc_includes");
         to return a list of zip codes within a five mile radius
         of any U.S. zip code input. Zipcodeapi is a free service until the API call limit of 50 per hour or 
         1,200 per day is reached. (Too many calls will generate an error once this limit is reached.)
-        There will be an organic version shortly with no limits other than bandwidth.
+       
     </p>
     <form id="formwhatever" action="" method="post" name="form" enctype="multipart/form-data">
         <div class="form-group"> 
-            <label>Enter a zip code</label>
+            <label>Enter a zip code (for more than one use use a comma delimited list)</label>
             <textarea rows="4" cols="50" class="form-control" id="ziplocale"></textarea>
 
         </div>            
